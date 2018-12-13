@@ -1,0 +1,132 @@
+/* BRAND COLORS */
+:root {
+    --brand-primary: #6699C8; 
+    --brand-secondary: #4A4A4A;
+  }
+
+.wrapper {
+    overflow: hidden;
+}
+
+.jumbotron {
+    background-image: url("/cockpit/storage/uploads/images/compounding-jumbotron.jpg");
+    height: 55vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+.main {
+    font-weight: bold;
+    color: #fff;
+}
+
+.sub {
+    font-size:2.25rem;
+    color: var(--brand-secondary);
+    font-weight: bold;
+}
+
+.help-box {
+    font-size:1.5rem;
+}
+
+.hekp-box.card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.jumbotron i {
+    color: #4a4a4a;
+    margin-right: 5%;
+}
+
+span.small {
+    font-size: 0.8rem;
+    color: var(--brand-primary);
+}
+
+.btn-brand-primary {
+    background-color: var(--brand-primary);
+    border: solid 2px var(--brand-primary);
+    color: white;
+}
+
+.btn-brand-primary:hover {
+    background-color: white;
+    border: solid 2px var(--brand-primary);
+    color: var(--brand-primary);
+}
+
+.help {
+    color: var(--brand-primary);
+}
+
+.row-jumbo {
+    justify-content: center;
+    align-items: center;
+}
+
+.separator-secondary {
+    background-color: var(--brand-secondary);
+    height: 45px;
+}
+
+.bg-brand-primary {
+    background-color: var(--brand-primary);
+}
+
+.about-section {
+    font-size:1.2rem;
+}
+
+.about-section-title {
+    color: var(--brand-primary);
+    font-size: 1.5rem;
+}
+
+.about-inner {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 95px !important;
+    padding-right: 95px !important;
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
+
+.news-inner {
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+}
+
+.short-hr {
+    width: 30px;
+    background-color: var(--brand-primary);
+}
+
+.news-section-title {
+    color: var(--brand-primary);
+    font-size: 1.5rem;
+}
+
+.services-content {
+    margin-left: 10% !important;
+    margin-top: 2% !important;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.2rem;
+    padding:2%;
+}
+
+.services-image {
+    margin-right: 10% !important;
+    margin-top: 2% !important;
+}
+
+.services-section {
+    padding-bottom: 45px;
+    background-image: url("/cockpit/storage/uploads/images/funky-lines.png");
+}
